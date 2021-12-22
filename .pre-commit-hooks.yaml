@@ -1,0 +1,4 @@
+- id: alembic-autogen-check
+  entry: alembic-autogen-check
+  name: Alembic Autogen Check
+  language: python
