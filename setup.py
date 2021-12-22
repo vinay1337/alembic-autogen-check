@@ -2,7 +2,7 @@ import re
 
 from setuptools import setup
 
-INSTALL_REQUIRES = ["alembic", "click>=7.0"]
+INSTALL_REQUIRES = ["alembic", "click>=7.0", "colorama"]
 EXTRAS_REQUIRE = {
     "tests": ["pytest"],
     "lint": ["fourmat~=0.4.3", "pre-commit"],
